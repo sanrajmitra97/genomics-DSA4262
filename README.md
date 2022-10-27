@@ -1,7 +1,7 @@
 # genomics-DSA4262
 NUS DSA4262 Genomics Project
 - Step 1: Launch AWS and navigate to your home directory using the command: cd ~
-- Step 2: Create a virtual envionment by following the steps:
+- Step 2: Create a virtual envionment by running the following bash commands:
   - sudo apt-get install python3-pip
   - sudo pip3 install virtualenv 
   - virtualenv 'venv name'
