@@ -10,5 +10,5 @@ NUS DSA4262 Genomics Project
  - Step 4: Run the following command: $ pip install -r /path/to/requirements.txt
  - Step 5: Once done, cd to the src folder: $ cd src
  - Step 6: Run the following command: $ python make_pred.py
- - Step 7: Once done, the results will be located in a folder called 'Results' in the parent directory of src. 
+ - Step 7: Once done, the results csv file will be located in a folder called 'Results' in the parent directory of src. 
  
