@@ -4,6 +4,7 @@ NUS DSA4262 Genomics Project
 - Step 2: Create a virtual envionment by running the following bash commands:
   - $ sudo apt-get install python3-pip
   - $ sudo pip3 install virtualenv 
+  - Check that you have downloaded virtualenv using the command: $ virtualenv --version
   - $ virtualenv 'venv name'
   - $ source 'venv name'/bin/activate
  - Step 3: git clone this folder
