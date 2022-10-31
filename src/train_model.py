@@ -1,6 +1,6 @@
 import pickle
-from os import listdir
-from os.path import isfile, join
+from os import listdir, mkdir
+from os.path import isfile, join, exists
 from prep_data import preprocess
 import rich.progress
 import json
@@ -58,7 +58,9 @@ print(f"Training PR AUC {prauc_score(y_train, final_y_score)}")
 
 # save model
 print('SAVING MODEL')
-outdir = '../models/'
+outdir = '../models'
 model_name = input(f"Give the model a name:\n")
-filename = f'{model_name}.sav'
+filename = f'/{model_name}.sav'
+if not exists(outdir):
+    mkdir(outdir)
 pickle.dump(clf, open(outdir+filename, 'wb'))
