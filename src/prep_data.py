@@ -43,3 +43,6 @@ class preprocess():
         df["relative_pos"] = df.groupby("transcript_id")["transcript_position"].rank()
         df["relative_pos"] = df["relative_pos"].astype(int)
         return df
+    def get_y_train(self, labels_df): #prepped_df comes from the above get_dataframe function
+        y_train = np.asarray(labels_df['label'])
+        return y_train
