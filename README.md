@@ -1,4 +1,4 @@
-# genomics-DSA4262
+# DSA4262-proj-genericteam
 NUS DSA4262 Genomics Project
 - Step 1: Launch AWS and navigate to your home directory using the command: ``` $ cd ~ ```
 - Step 2: Create a virtual envionment by running the following bash commands:
