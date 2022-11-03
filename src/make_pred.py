@@ -25,7 +25,7 @@ def make_predictions(data, model):
 ### Load Model
 print('LOADING MODEL')
 model_path = '../models/' #Update this line with model folder path
-model_name = [f for f in listdir(model_path) if isfile(join(model_path, f))][-1] # Assume the latest model is the best model
+model_name = [f for f in listdir(model_path) if isfile(join(model_path, f))][0] 
 model = pickle.load(open(model_path+model_name, 'rb'))
 print('##################LOADING MODEL COMPLETED##################')
 

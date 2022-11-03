@@ -10,6 +10,7 @@ NUS DSA4262 Genomics Project
 - Step 3: git clone this repository using the command: ``` $ git clone https://github.com/sanrajmitra97/genomics-DSA4262.git ```
 - Step 4: Locate the requirements.txt file and run the following command: ``` $ pip install -r /path/to/requirements.txt ```
 - Step 5: Once done, cd to the src folder: ``` $ cd src ```
+- To run the test script, proceed to step 7. If you would like to run the training script, proceed to step 6. 
 - Step 6: Run the following command: ``` $ python train_model.py ```
   - You will be prompted to add a name for the model. Feel free to add any name for the model. For example, "model1". 
   - The results of the model's training performance will also be printed. 
