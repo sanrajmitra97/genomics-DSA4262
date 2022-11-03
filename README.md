@@ -16,6 +16,7 @@ NUS DSA4262 Genomics Project
   - The results of the model's training performance will also be printed. 
   - This model is also saved in a "models" folder in the parent directory of src.
 - Step 7: Run the following command while still in the src folder: ``` $ python make_pred.py ```
-  - The model trained in the previous step will be used for making predictions on a small test dataset.
+  - If you ran step 6, the model trained in step 6 will be used for making predictions on a small test dataset.
+  - If you skipped to step 7, the model used to make predictions is already located in the models folder. 
 - Step 8: The predictions of the test dataset will be located in a folder called 'Results' in the parent directory of src. 
  
