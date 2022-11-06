@@ -5,7 +5,7 @@ NUS DSA4262 Genomics Project
 An example of post-transcriptional modification is m6A modification, where a methyl group is added to an adenosine molecule which results in a change of chemical structure. Such modification plays an important rule in cellular fate governance and cellular processes; and it can also be linked to life-threatening diseases like cancer. The nanopore direct RNA sequencing technology captures information such as the direct RNA current for each RNA module, the standard deviation and the dwelling time of the molecule as it passes through a nanopore. This script includes the model training process to develop a supervised machine learning model to predict the m6A modification sites. A sample train and test dataset is provided to run the model and evaluate its performance.
 
 
-### Installation Steps
+### Installation and Execution
 - Step 1: Launch AWS and navigate to your home directory using the command: ``` $ cd ~ ```
 - Step 2: Create a virtual envionment by running the following bash commands:
   - Install pip ``` $ sudo apt-get install python3-pip ```
@@ -25,8 +25,8 @@ An example of post-transcriptional modification is m6A modification, where a met
   - If you ran step 6, the model trained in step 6 will be used for making predictions on a small test dataset.
   - If you skipped to step 7, the model used to make predictions is already located in the models folder. 
 - Step 8: The predictions of the test dataset will be located in a folder called 'Results' in the parent directory of src. 
- 
+
  ### Interpretation
- Upon completion of Step 8, we can use the head command to view the prediction results.
- ![Output](image.png)
+ To view the results, we can use the head command to view the prediction results. Navigate to the results folder and type the following: ``` $ head results_0.csv ```
+ ![Output](image.png) <br />
  The first column shows the transcript_id, the second column shows the transcript_position and the third column shows the predicted score of m6A modification. A higher score denotes a higher probability of the site containing an m6A modification.
