@@ -5,8 +5,13 @@ authors:
   given-names: "Sanraj"
 - family-names: "Ho"
   given-names: "Carine"
+- family-names: "Cho"
+  given-names: "Andrea"
+- family-names: "Sriram"
+  given-names: "Shreya"
+- family-names: "Suhaina"
+  given-names: "Noorus"
 title: "DSA4262 proj-genericteam"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
 date-released: 2022-11-06
 url: "https://github.com/sanrajmitra97/genomics-DSA4262"
