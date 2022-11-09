@@ -14,6 +14,7 @@ An example of post-transcriptional modification is m6A modification, where a met
   - Replace 'venv name' with a name for your virtual environment.``` $ virtualenv 'venv name' ```
   - Activate your virtual envionment ``` $ source 'venv name'/bin/activate ```
 - Step 3: git clone this repository using the command: ``` $ git clone https://github.com/sanrajmitra97/genomics-DSA4262.git ```
+  - If for any reason the above command returns a "fatal error" when cloning, try this command instead: ``` $ git clone --depth 1 https://github.com/sanrajmitra97/genomics-DSA4262.git ```. Some machines may face the error when cloning, but not all. 
 - Step 4: Locate the requirements.txt file and run the following command: ``` $ pip install -r /path/to/requirements.txt ```
 - Step 5: Once done, cd to the src folder: ``` $ cd src ```
 - To run the test script, proceed to step 7. If you would like to run the training script, proceed to step 6. 
