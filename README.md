@@ -31,3 +31,6 @@ An example of post-transcriptional modification is m6A modification, where a met
  To view the results, we can use the head command to view the prediction results. Navigate to the results folder and type the following: ``` $ head results_0.csv ```
  ![Output](image.png) <br />
  The first column shows the transcript_id, the second column shows the transcript_position and the third column shows the predicted score of m6A modification. A higher score denotes a higher probability of the site containing an m6A modification.
+
+ ### Results
+ To learn about our methods and findings of this project, feel free to view our report under the reports folder. 
